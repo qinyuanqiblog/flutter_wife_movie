@@ -1,6 +1,6 @@
 # flutter_wife_movie
 
-老婆写一个视频
+用flutter 给梅梅写一个视频 app
 
 ## Getting Started
 
