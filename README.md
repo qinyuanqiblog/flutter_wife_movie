@@ -1,6 +1,6 @@
 # flutter_wife_movie
 
-老婆的专属视频app
+老婆写一个视频
 
 ## Getting Started
 
