@@ -1,6 +1,6 @@
 # flutter_wife_movie
 
-A new Flutter project.
+老婆的专属视频app
 
 ## Getting Started
 
