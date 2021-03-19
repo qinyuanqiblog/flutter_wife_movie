@@ -9,7 +9,7 @@ class GetSwiperTemplate extends StatefulWidget {
 }
 
 class _GetSwiperTemplateState extends State<GetSwiperTemplate> {
-   List<Image> imgs = [
+  List<Image> imgs = [
     //建立了一个图片数组
     Image.network(
       "https://images.unsplash.com/photo-1477346611705-65d1883cee1e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60",
@@ -27,16 +27,14 @@ class _GetSwiperTemplateState extends State<GetSwiperTemplate> {
   @override
   Widget build(BuildContext context) {
     return Swiper(
-      itemBuilder: (BuildContext context, int index) {
-        return imgs[index];
-      },
-      itemCount: imgs.length,
-      autoplay: true,
-      pagination: new SwiperPagination(),
-      control: new SwiperControl(),
-      viewportFraction: 0.8,
-      scale: 0.9,
-    );
+                itemBuilder: (BuildContext context, int index) {
+                  //条目构建函数传入了index,根据index索引到特定图片
+                  return imgs[index];
+                },
+                itemCount: imgs.length,
+                autoplay: true,
+                pagination: new SwiperPagination(), //这些都是控件默认写好的,直接用
+                control: new SwiperControl(),
+              );
   }
 }
-
