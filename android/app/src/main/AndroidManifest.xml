@@ -2,6 +2,7 @@
     package="com.example.flutter_wife_movie">
    <application
         android:label="flutter_wife_movie"
+        android:usesCleartextTraffic="true"
         android:icon="@mipmap/ic_launcher">
         <activity
             android:name=".MainActivity"

@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import './views/movieCenter/index.dart';
 import './views/musicCenter/index.dart';
 
+
 void main() {
   runApp(new MyApp());
 }

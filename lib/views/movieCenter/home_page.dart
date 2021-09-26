@@ -18,8 +18,8 @@ class _HomePageState extends State<HomePage> {
         appBar: AppBar(
           flexibleSpace: SafeArea(
             child: TabBar(labelColor: Colors.red, isScrollable: true, tabs: [
-              Tab(text: "zhi"),
-              Tab(text: "Edit"),
+              Tab(text: "帅哥"),
+              Tab(text: "美女666"),
             ]),
           ),
         ),
